@@ -44,7 +44,7 @@ int main()
 {
   const int CITY = 2;
   const int WEEK = 7;
-  int temperature[CITY][WEEK];
+  double temperature[CITY][WEEK];
 
   //Note your input data from the above
   cout << "Enter all temperature for a week of Cleburne and then Fort Worth. \n";
@@ -57,8 +57,10 @@ int main()
     {
       display_city(i);
       cout << ", Day " << j + 1 << " : ";
-      
-      cin >> temperature[i][j];
+      //floats break this cin >> temperature[i][j];
+
+
+
     }
   }
   cout << "\n\nDisplaying Values:\n";
@@ -67,7 +69,8 @@ int main()
   {
     for(int j = 0; j < WEEK; ++j)
     {
-      cout << "City " << i + 1 << ", Day " << j + 1 
+      display_city(i);
+      cout << ", Day " << j + 1 
       << " = " << temperature[i][j] << endl;
     }
   }
@@ -82,6 +85,7 @@ int main()
 //4. print the results of temperature[i][j]; to the screen.
 
 void display_city(int i)
+// takes i and gets the value of one or 0 to determine whether to out put cleburne or fort worth does not have a endl inside
 {
   if(i == 0)
   {
