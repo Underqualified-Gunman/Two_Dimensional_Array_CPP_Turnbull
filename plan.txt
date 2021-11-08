@@ -1,0 +1,42 @@
+program starts asks for city names 
+loops until the string "stop" is detected
+use pair struct to  display one name or the other
+stops at 2 names automaticlly
+
+holds a week of temperture data at a time
+display the data as
+CITY_NAME, DAY #, AVERAGE_TEMP
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+Unit3_Assignment- Multi-dimensional Arrays
+
+Be sure to see the Game Development Resources item of Unit 7 WHERE IS THIS? FOUND!
+
+Task -
+
+Top level solution folder: Two_Dimensional_Array_CPP_YourLastname
+
+create a single main.cpp that contains code samples and implementations of each of the following topics 
+
+ 
+goals
+
+Arrays have the ability to have multiple dimensions (Links to an external site.). In this assignment, you create a two-dimensional array (table) to keep track of and display data. Use the following code as a starting point  
+
+EC goals? or is this what the assignment is?
+1. Create a one dimensional array, cityOne[7] to store the 7 temperatures of city 1, assume that value 0 represents day 1, 1 represents day 2....
+
+2. Create a on dimensional array, cityTwo[7] to store the 7 temperatures of city 2 , assume that value 0 represents day 1, 1 represents day 2....
+
+3. Using a for loop (or nested for loop), feed the data of CityOne[] andCityTwo[] into temperature[i][j], where i is index of the City Number, andj is the index of the temp for the day.
+
+4. print the results of temperature[i][j]; to the screen.
