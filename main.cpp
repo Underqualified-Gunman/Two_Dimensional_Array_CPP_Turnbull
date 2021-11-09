@@ -14,8 +14,8 @@ int main()
   const int CITY = 2;
   const int WEEK = 7;
   int temperature[CITY][WEEK];
-  int city1[7]= {59,49,58,63,69,75,74}; //cleburne
-  int city2[7]= {56,48,58,63,69,76,71}; //ft worth
+  int city1[7]= {59,49,58,63,69,75,74}; //Cleburne
+  int city2[7]= {56,48,58,63,69,76,71}; //FT worth
   //storing 7 variables 0-6
   
   //Note your input data from the above
