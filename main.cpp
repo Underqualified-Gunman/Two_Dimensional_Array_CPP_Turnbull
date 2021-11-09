@@ -28,12 +28,13 @@ cout <<"########################" << endl;
 cout << "      CITY, Day # Temp"<<endl;
 cout <<"########################" << endl;
 
-  for (int i = 0; i < CITY; ++i)
+  for (int i = 0; i < CITY; ++i)//upper loop only loops and increments i after the lower loop executes and reaches a "finished state" the upper only increments twice while the lower executes 14 times. 2 * 7 
   {
     for(int j = 0; j < WEEK; ++j)
     {
       temperature[i][j] = city2[j];
       display_city(i); cout << ", Day " << j+1 <<"  " << temperature[i][j] << endl;
+      // executes 7 times then finishes only for the above to increment temperature to 1 and set it off 7 more times
     }
   }
 
